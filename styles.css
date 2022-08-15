@@ -1,0 +1,161 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+html { box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+/* Base & Stripping Styles here */
+
+html {
+    background-color: #a1a1a1;
+    font-family: 'Anybody', sans-serif;
+    font-size: 125%;
+    letter-spacing: 1px;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Body Styles here */
+
+/* Header Styles here */
+header {
+    background-color: #000000;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 0;
+    padding-top: 7px;
+}
+
+span {
+    background-color: rgb(193, 0, 0);
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 500;
+    letter-spacing: -5.7px;
+    color: antiquewhite;
+    padding: 4px 16px 0px 9px;
+    display: inline-block;
+}
+
+/* Main Styles here */
+main {
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(176,15,15,1) 35%, rgb(87, 0, 0) 100%);
+    min-height: 90vh;
+}
+
+.mainPage {
+    background-color: rgba(240, 248, 255, 0.1);
+    height: 100%;
+    text-align: center;
+    min-height: 90vh;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 1.8rem;
+    padding: 30px 0px 10px 0px;
+    font-weight: 600;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding: 35px 0px 20px 0px;
+    font-weight: 300;
+}
+
+input[type="text"] {
+    border:#08022D solid 2.5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button {
+    color: #ffffff;
+    background-color: #08022D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 0.7rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+li {
+    list-style: none;
+    font-size: 0.7rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.comicTitle {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding: 35px 0px 20px 0px;
+    font-weight: 400;
+}
+
+.characName {
+    font-size: 4rem;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(227, 65, 65);
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+    /* border: #ff0 solid 2px; */
+    width: calc(((80%)/3) - 60px);
+    /* margin-left: 2px;
+    margin-right: 2px; */
+}
+
+/* Footer Styles here */
+footer p {
+    background-color: #000;
+    color: antiquewhite;
+    text-align: center;
+}
+
+footer a {
+    color: antiquewhite;
+}
