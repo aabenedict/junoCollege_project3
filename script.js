@@ -8,7 +8,7 @@ const app = {};
 app.apiKey = '456f5962dee9f809c3786f2e86a7aa2b';
 app.ts = '1'
 app.hash = '80a29a2a84504afd414346b9b445084a';
-app.baseUrl = 'http://gateway.marvel.com/v1/public/characters';
+app.baseUrl = 'https://gateway.marvel.com/v1/public/characters';
 
 // adding html variables
 $dropdown = $('#characterList');
